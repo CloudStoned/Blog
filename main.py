@@ -10,8 +10,6 @@ from sqlalchemy import Integer, String, Text
 from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
-import os 
-from dotenv import load_dotenv
 # Optional: add contact me email functionality (Day 60)
 # import smtplib
 
